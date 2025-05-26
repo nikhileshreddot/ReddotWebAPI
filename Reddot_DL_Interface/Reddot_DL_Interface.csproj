@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Reddot_EF\Reddot_EF.csproj" />
+    <ProjectReference Include="..\Reddot_View_Model\Reddot_View_Model.csproj" />
+  </ItemGroup>
+
+</Project>

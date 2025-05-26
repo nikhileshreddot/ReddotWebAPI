@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Reddot_BL_Interface\Reddot_BL_Interface.csproj" />
+    <ProjectReference Include="..\Reddot_DL_Interface\Reddot_DL_Interface.csproj" />
+    <ProjectReference Include="..\Reddot_DL_Repository\Reddot_DL_Repository.csproj" />
+    <ProjectReference Include="..\Reddot_EF\Reddot_EF.csproj" />
+    <ProjectReference Include="..\Reddot_View_Model\Reddot_View_Model.csproj" />
+  </ItemGroup>
+
+</Project>
